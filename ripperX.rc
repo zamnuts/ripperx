@@ -1,0 +1,53 @@
+//
+// ~/.ripperXrc
+// This is the resource file for ripperX.
+// If you edit this file with an editor, note
+// that this file is overwritten each time ripperX is run.
+//
+// You can configure everything in the config menu within ripperX.
+//
+
+//-v 2.8.0
+
+CDDBConfig::AutoLookup = 0
+CDDBConfig::ConvertSpaces = 0
+CDDBConfig::CreateID3 = 1
+CDDBConfig::CreatePlaylist = 0
+CDDBConfig::DirFormatString = %a/%v
+CDDBConfig::FormatString = %# - %s
+CDDBConfig::MakeDirectories = 1
+CDDBConfig::Port = 80
+CDDBConfig::ProxyPort = 8080
+CDDBConfig::ProxyServer =
+CDDBConfig::Server = freedb.freedb.org/~cddb/cddb.cgi
+CDDBConfig::UseHttp = 1
+CdPlayer::Play_command = cdplay %
+CdPlayer::Stop_command = cdstop
+Encoder::Bitrate = 320
+Encoder::Encoder = lame
+Encoder::HighQual = 1
+Encoder::Plugin = ripperX_plugin-lame
+Encoder::Priority = 10
+Encoder::Type = 2
+Encoder::VBRQual = 4
+Encoder::VarBitrate = 0
+Encoder::extraOptions =
+Encoder::fullCommand = lame -b 320 --nohist -v -h
+Encoder::useCRC = 1
+General::AskWhenFileExists = 1
+General::AutoAppendExtension = 1
+General::CDDBPath = ./.cddbslave
+General::KeepWav = 0
+General::MakeMp3FromExistingWav = 0
+General::Mp3FileNameFormat = track%
+General::Mp3Path = /output/mp3
+General::Mp3Ratio = 0.08
+General::PrependChar = _
+General::ShellForExecution = /bin/sh
+General::WavFileNameFormat = track%
+General::WavPath = /output/wav
+General::WavRatio = 0.006
+Mp3Player::Command = mpg123 %
+Ripper::Plugin = ripperX_plugin-cdparanoia
+Ripper::Ripper = cdparanoia
+WavPlayer::Command = play %
