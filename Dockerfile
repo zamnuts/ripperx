@@ -4,7 +4,7 @@ ARG ripperxVersion='2.8.0'
 ENV \
   APP_NAME='ripperx' \
   HOME='/'
-VOLUME ['/output']
+
 COPY startapp.sh /startapp.sh
 COPY ripperX.rc /config/.ripperXrc
 
