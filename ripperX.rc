@@ -49,5 +49,5 @@ General::WavPath = /output/wav
 General::WavRatio = 0.006
 Mp3Player::Command = mpg123 %
 Ripper::Plugin = ripperX_plugin-cdparanoia
-Ripper::Ripper = cdparanoia
+Ripper::Ripper = cdparanoia -d /dev/sr0
 WavPlayer::Command = play %
