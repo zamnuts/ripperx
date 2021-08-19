@@ -9,7 +9,7 @@
 
 //-v 2.8.0
 
-CDDBConfig::AutoLookup = 0
+CDDBConfig::AutoLookup = 1
 CDDBConfig::ConvertSpaces = 0
 CDDBConfig::CreateID3 = 1
 CDDBConfig::CreatePlaylist = 0
@@ -17,9 +17,9 @@ CDDBConfig::DirFormatString = %a/%v
 CDDBConfig::FormatString = %# - %s
 CDDBConfig::MakeDirectories = 1
 CDDBConfig::Port = 80
-CDDBConfig::ProxyPort = 8080
+CDDBConfig::ProxyPort = 0
 CDDBConfig::ProxyServer =
-CDDBConfig::Server = freedb.freedb.org/~cddb/cddb.cgi
+CDDBConfig::Server = gnudb.gnudb.org/~cddb/cddb.cgi
 CDDBConfig::UseHttp = 1
 CdPlayer::Play_command = cdplay %
 CdPlayer::Stop_command = cdstop
